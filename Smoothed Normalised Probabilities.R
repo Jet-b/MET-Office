@@ -20,6 +20,7 @@ xValue <- 0
 
 abline(v = xValue, col = "red", lty = 2)
 
-area <- integrate(function(data2) dnorm(data2, mean = mean(data2), sd = sd(data2)), -1, 0)$value
+area1 <- integrate(function(data2) pnorm(data2, mean = mean(data2), sd = sd(data2)), xValue, max(data2))$value
 
-print(area)
+
+print(area1) 
