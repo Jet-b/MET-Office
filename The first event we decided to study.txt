@@ -1,0 +1,35 @@
+
+- June 2019
+- Prolonged length, causing 500 deaths
+- Broke temperature records all over europe
+- how humans have effected the likelihood of extreme temperature
+
+- We were provided with 2 sets of data 525
+- All forcings and natural forcings, explain
+- Oberved
+
+- Histogram
+- Turned into normal distribution
+- orange All Forcings
+- brown Natural Forcings
+- All forcings has a generally positive temperature anomaly 
+- Natural forcings has a generally negative temperature anomaly
+- calculate the area under the graph 3.71 - infinity
+- We can work out the risk ratio
+
+- Final risk ratio of 80.4
+- 80.4 
+
+- Began bootstrapping 
+- Take a random sample with replacement equal size
+- Did this up to 10 000 times 
+- Plot histogram of the newly calculated risk ratios
+- Get a potential spread of our data
+- top and bottom 5% confidence of 90%
+- interval of 29.4 to 249.4
+
+- How did we pick the number of bootstraps
+- same data bootsrapped a different number of times 
+- histograms clearly smooth out
+- We agreed that 5 000 was the best
+- Only had time for 2 000
